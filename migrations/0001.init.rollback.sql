@@ -1,0 +1,2 @@
+DROP TRIGGER AutoGenerateUsersGUID;
+DROP TABLE users;

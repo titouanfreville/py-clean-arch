@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pydantic = "*"
+sqlalchemy = "*"
+fastapi = "*"
+dependency-injector = "*"
+uvicorn = {extras = ["standart"],version = "*"}
+environs = "*"
+
+[dev-packages]
+pylama = "*"
+pylint = "*"
+pytest = "*"
+elmock = "*"
+black = "*"
+yoyo-migrations = "*"
+
+[requires]
+python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true

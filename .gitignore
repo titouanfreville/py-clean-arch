@@ -1,0 +1,6 @@
+*.db
+*venv
+.idea
+.vscode
+.env*
+!.env.sample
